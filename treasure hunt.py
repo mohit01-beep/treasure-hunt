@@ -3,11 +3,11 @@ gameover = False
 while not gameover:
     clear()
     print("Welcome to treasure island")
-    start= input("where do you want to go?: type left or right ").lower()
+    start= input("Where do you want to go?: type left or right ").lower()
     if start=="left":
         choice1=input("There's a lake over there, do you want to swim or do you want to wait for boat?: type swim or wait ").lower()
-        if choice1== "wait":
-            choice2=input("you reached island safely, now there's 3 gate with different colour. Which colour do you want to choose?: 'yellow' or 'red' or 'blue' ").lower()
+        if choice1== "Wait":
+            choice2=input("You reached island safely, now there's 3 gate with different colour. Which colour do you want to choose?: 'yellow' or 'red' or 'blue' ").lower()
             if choice2=='yellow':
                 over=input("you found the treasure. congratulations, do you want to play again?")
 
